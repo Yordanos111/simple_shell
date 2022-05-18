@@ -13,7 +13,7 @@
 #include <stdbool.h>
 
 /* environment variables */
-extern char **environ; 													//global_env
+extern char **global_env;
 extern __sighandler_t signal(int __sig, __sighandler_t __handler);		
 
 /* handle built ins */
